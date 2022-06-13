@@ -1,0 +1,159 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: #121F3D;
+  color: white;
+}
+
+header, footer{
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+button{
+  transition: all .3s;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.pokedex{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #fb2934;
+}
+
+.pokedex button{
+  border: 1px solid black;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+  background: transparent;
+  font-size: 1.4rem;
+}
+
+.pokemon-stats span{
+  display: block;
+}
+
+.pokemon-description{
+  text-transform: lowercase;
+}
+
+.progress-bar{
+  width: 100%;
+  text-align: center;
+  border: 2px solid gray;
+}
+
+.progress-bar span{
+  background-color: #121F3D;
+}
+
+.pokedex-info, .pokedex-pokemon{
+  width: 50%;
+}
+
+.pokemon-img img{
+  width: 40%;
+  height: 30px;
+  object-fit: cover;
+}
+
+.pokedex-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+
+#pokemons{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#pokemons li{
+  list-style: none;
+  width: 20%;
+  display: flex;
+  margin: 10px;
+  font-size: .8rem;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#pokemons li img{
+  width: 50px;
+  height: 50px;
+}
+
+#pokemons li h3{
+  text-transform: capitalize;
+}
+
+#pokemons li span{
+  display: block;
+  padding: 2px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 5px ; 
+  width: 30px;
+}
+
+#pokemons li button{
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  margin-top: 5px;
+  border: 1px solid black;
+  padding: 4px;
+  font-size: .8rem;
+}
+
+.list-pokemon-header{
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer{
+  font-size: 1rem;
+}
+
+
+/* Pokemon type */
+
+.grass{
+  border: 5px solid #004b23;
+  background: #38b000;
+}
+
+.fire{
+  border: 5px solid #641220;
+  background: #a11d33;
+}
+
+.water{
+  border: 5px solid #001845;
+  background: #0353a4;
+}
