@@ -103,7 +103,7 @@ const nextPokemons = () => {
 const prevPokemons = () => {
   pokemonsList.innerHTML = "";
 
-  fetchData(listPokemons.next).then((newData) => {
+  fetchData(listPokemons.previous).then((newData) => {
     console.log(newData.previous);
     printPokemons(newData.previous);
   });
